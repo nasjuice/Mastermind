@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="205.0" layoutY="28.0" text="About">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="63.0" prefHeight="160.0" prefWidth="452.0" text="Created by: Naasir Jusab, Uen Yi Hung, Victor Ruggi, Dimitri Spyropoulos">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

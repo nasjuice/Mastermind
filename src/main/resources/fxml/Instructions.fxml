@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uenyihung.mastermindv2..client.FXMLController">
+   <children>
+      <Label layoutX="237.0" layoutY="41.0" prefHeight="35.0" prefWidth="127.0" text="How to Play">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="54.0" prefHeight="308.0" prefWidth="570.0" text="The objective of the game is to break the code that the computer generates. The computer chooses a pattern of four colours. Duplicates are allowed, so the code may be four of the same colour. You must try to guess the pattern, in both order and colour, within ten turns. Each guess is made by clicking on a colour on the right and then clicking on a square on the game board to place that colour. Once you have finished selecting your four colour guess click the “Did I Get It Right?” button. The computer will either declare you the winner or provide clues to help you crack the code. The computer will place a black peg for each of your colours guessed which is correct in both colour and position. It will place a white peg if you guessed the correct colour but in the wrong position. The position of the clue pegs given by the computer are in a random order and do not necessarily correspond directly to your guess (i.e.: a black peg in the first position does not necessarily mean that the first colour you guessed is the one which is correct in position and colour). Good Luck!" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
